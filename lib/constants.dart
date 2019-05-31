@@ -5,29 +5,53 @@ class AppColors {
   static const TabIconNormal = 0xff999999;
   static const TabIconActive = 0xff46c11b;
   static const AppBarPopupMenuColor  = 0xffffffff;
+  static const ConversationTitleColor  = 0xff353535;
+
+//  static const CardBgColor = 0xffffffff;
+  static const TitleColor = 0xff181818;
+  static const ConversationItemBg = 0xffffffff;
+  static const DesTextColor = 0xff999999;
+  static const DividerColor = 0xffd5d5d5;
+  static const NotifyDotBg = 0xfff85351;
+  static const NotifyDotText = 0xffffffff;
+  static const ConversationMuteIcon = 0xffd8d8d8;
+  static const DeviceInfoItemBg = 0xfff5f5f5f;
+  static const DeviceInfoItemText = 0xff606062;
+  static const DeviceInfoItemIcon = 0xff606062;
+//  static const ContactGroupTitleBg = 0xffebebeb;
+//  static const ContactGroupTitleText = 0xff888888;
+//  static const IndexLetterBoxBg = Colors.black45;
+//  static const HeaderCardBg = Colors.white;
+//  static const HeaderCardTitleText = 0xff353535;
+//  static const HeaderCardDesText = 0xff7f7f7f;
+//  static const ButtonDesText = 0xff8c8c8c;
+//  static const ButtonArrowColor = 0xffadadad;
+//  static const NewTagBg = 0xfffa5251;
+//  static const ChatBoxBg = 0xfff7f7f7;
+
 }
 
-//class AppStyles {
-//  static const TitleStyle = TextStyle(
-//    fontSize: Constants.TitleTextSize,
-//    color: const Color(AppColors.TitleColor),
-//  );
-//
-//  static const DesStyle = TextStyle(
-//    fontSize: Constants.DesTextSize,
-//    color: Color(AppColors.DesTextColor),
-//  );
-//
-//  static const UnreadMsgCountDotStyle = TextStyle(
-//    fontSize: 12.0,
-//    color: Color(AppColors.NotifyDotText),
-//  );
-//
-//  static const DeviceInfoItemTextStyle = TextStyle(
-//    fontSize: Constants.DesTextSize,
-//    color: Color(AppColors.DeviceInfoItemText),
-//  );
-//
+class AppStyles {
+  static const TitleStyle = TextStyle(
+    fontSize: Constants.TitleTextSize,
+    color: const Color(AppColors.TitleColor),
+  );
+
+  static const DesStyle = TextStyle(
+    fontSize: Constants.DesTextSize,
+    color: Color(AppColors.DesTextColor),
+  );
+
+  static const UnreadMsgCountDotStyle = TextStyle(
+    fontSize: 12.0,
+    color: Color(AppColors.NotifyDotText),
+  );
+
+  static const DeviceInfoItemTextStyle = TextStyle(
+    fontSize: Constants.DesTextSize,
+    color: Color(AppColors.DeviceInfoItemText),
+  );
+
 //  static const GroupTitleItemTextStyle = TextStyle(
 //    fontSize: 14.0,
 //    color: Color(AppColors.ContactGroupTitleText),
@@ -56,7 +80,7 @@ class AppColors {
 //      color: Colors.white,
 //      fontWeight: FontWeight.bold);
 //}
-
+}
 class Routes {
   static const Home = "/";
   static const Conversation = "/conversation";
@@ -78,6 +102,7 @@ class Constants {
   static const IndexLetterBoxRadius = 4.0;
   static const FullWidthIconButtonIconSize = 25.0;
   static const ChatBoxHeight = 48.0;
+  static const UnReadMsgNotifyDotSize = 20.0;
 
   static const String MENU_MARK_AS_UNREAD = 'MENU_MARK_AS_UNREAD';
   static const String MENU_MARK_AS_UNREAD_VALUE = '标为未读';
