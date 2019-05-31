@@ -18,8 +18,8 @@ class AppColors {
   static const DeviceInfoItemBg = 0xfff5f5f5f;
   static const DeviceInfoItemText = 0xff606062;
   static const DeviceInfoItemIcon = 0xff606062;
-//  static const ContactGroupTitleBg = 0xffebebeb;
-//  static const ContactGroupTitleText = 0xff888888;
+  static const ContactGroupTitleBg = 0xffebebeb;
+  static const ContactGroupTitleText = 0xff888888;
 //  static const IndexLetterBoxBg = Colors.black45;
 //  static const HeaderCardBg = Colors.white;
 //  static const HeaderCardTitleText = 0xff353535;
@@ -52,10 +52,10 @@ class AppStyles {
     color: Color(AppColors.DeviceInfoItemText),
   );
 
-//  static const GroupTitleItemTextStyle = TextStyle(
-//    fontSize: 14.0,
-//    color: Color(AppColors.ContactGroupTitleText),
-//  );
+  static const GroupTitleItemTextStyle = TextStyle(
+    fontSize: 14.0,
+    color: Color(AppColors.ContactGroupTitleText),
+  );
 //
 //  static const IndexLetterBoxTextStyle =
 //  TextStyle(fontSize: 64.0, color: Colors.white);
