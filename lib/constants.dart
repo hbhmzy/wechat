@@ -94,7 +94,7 @@ class Constants {
   static const ConversationAvatarSize = 48.0;
   static const DividerWidth = 0.6;
   static const ConversationMuteIconSize = 18.0;
-  static const ContactAvatarSize = 42.0;
+  static const ContactAvatarSize = 36.0;
   static const TitleTextSize = 16.0;
   static const DesTextSize = 13.0;
   static const IndexBarWidth = 24.0;

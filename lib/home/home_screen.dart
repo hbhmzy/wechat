@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '../home/conversation_page.dart';
+import '../home/contacts_page.dart';
 import 'package:flutter_apptest/constants.dart' show Constants,AppColors;
 
 enum Actionitems{
@@ -54,7 +55,7 @@ class _HomeScreenState extends State<HomeScreen> {
     _pageController = PageController(initialPage: _currentIndex);//初始化pagecontroller，通过controller来管理page
     _pages=[
       Container(child: ConversationPage(),),
-      Container(color: Colors.blue,),
+      Container(child: ContactsPage(),),
       Container(color: Colors.amber,),
       Container(color: Colors.red,),
     ];
