@@ -99,33 +99,36 @@ class _HomeScreenState extends State<HomeScreen> {
 //          IconButton(icon: Icon(Icons.add,size: 22.0,),
 //              onPressed: (){print('click add');}
 //          ),
-          PopupMenuButton(
-            itemBuilder: (BuildContext context){
-              return <PopupMenuItem<Actionitems>>[
-                PopupMenuItem(
-                  child: _buildPopupMunuItem(0xe69e, "发起群聊"),
-                  value: Actionitems.GROUP_CHAT,
-                ),
-                PopupMenuItem(
-                  child: _buildPopupMunuItem(0xe638, "添加朋友"),
-                  value: Actionitems.ADD_FRIEND,
-                ),
-                PopupMenuItem(
-                  child: _buildPopupMunuItem(0xe61b, "扫一扫"),
-                  value: Actionitems.QR_SCAN,
-                ),
-                PopupMenuItem(
-                  child: _buildPopupMunuItem(0xe62a, "收付款"),
-                  value: Actionitems.PAYMENT,
-                ),
-                PopupMenuItem(
-                  child: _buildPopupMunuItem(0xe63d, "帮助与反馈"),
-                  value: Actionitems.HELP,
-                ),
-              ];
-            },
-            icon: Icon(IconData(0xe60e,fontFamily: Constants.IconFontFamily),size: 22.0,),
-            onSelected:(Actionitems selected){print("click $selected");}
+          Theme(
+            data: ThemeData(cardColor: Color(AppColors.AppBarColor),),
+            child: PopupMenuButton(
+                itemBuilder: (BuildContext context){
+                  return <PopupMenuItem<Actionitems>>[
+                    PopupMenuItem(
+                      child: _buildPopupMunuItem(0xe69e, "发起群聊"),
+                      value: Actionitems.GROUP_CHAT,
+                    ),
+                    PopupMenuItem(
+                      child: _buildPopupMunuItem(0xe638, "添加朋友"),
+                      value: Actionitems.ADD_FRIEND,
+                    ),
+                    PopupMenuItem(
+                      child: _buildPopupMunuItem(0xe61b, "扫一扫"),
+                      value: Actionitems.QR_SCAN,
+                    ),
+                    PopupMenuItem(
+                      child: _buildPopupMunuItem(0xe62a, "收付款"),
+                      value: Actionitems.PAYMENT,
+                    ),
+                    PopupMenuItem(
+                      child: _buildPopupMunuItem(0xe63d, "帮助与反馈"),
+                      value: Actionitems.HELP,
+                    ),
+                  ];
+                },
+                icon: Icon(IconData(0xe60e,fontFamily: Constants.IconFontFamily),size: 22.0,color: Color(AppColors.ActionIconColor),),
+                onSelected:(Actionitems selected){print("click $selected");}
+            ),
           ),
         ],
       ),

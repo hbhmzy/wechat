@@ -7,8 +7,8 @@ class AppColors {
   static const AppBarPopupMenuColor  = 0xffffffff;
   static const ConversationTitleColor  = 0xff353535;
   static const BackgroundColor = 0xffededed;
-
-//  static const CardBgColor = 0xffffffff;
+  static const ActionIconColor = 0xffffffff;
+  static const CardBgColor = 0xffffffff;
   static const TitleColor = 0xff181818;
   static const ConversationItemBg = 0xffffffff;
   static const DesTextColor = 0xff999999;
@@ -98,7 +98,7 @@ class Constants {
   static const ContactAvatarSize = 36.0;
   static const TitleTextSize = 16.0;
   static const DesTextSize = 13.0;
-  static const IndexBarWidth = 24.0;
+  static const IndexBarWidth = 34.0;
   static const IndexLetterBoxSize = 114.0;
   static const IndexLetterBoxRadius = 4.0;
   static const FullWidthIconButtonIconSize = 25.0;

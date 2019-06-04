@@ -5,8 +5,7 @@ void main() => runApp(new MaterialApp(
   title:'微信—clone',
   theme: ThemeData.light().copyWith(
     primaryColor: Color(AppColors.AppBarColor),
-    cardColor: const Color(AppColors.AppBarColor),
-
+    cardColor: const Color(AppColors.CardBgColor),
   ),
   home: HomeScreen(),
 ));

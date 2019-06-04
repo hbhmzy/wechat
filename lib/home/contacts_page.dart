@@ -88,17 +88,17 @@ class _ContactItem extends StatelessWidget {
     return _itemBody;
   }
 }
-
+//右侧边导航栏列表
 const INDEX_BAR_WORDS = [
   "↑", "☆", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L",
   "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
+
 class ContactsPage extends StatefulWidget {
   Color _indexBarBg = Colors.transparent;
   String _currentLetter = '';
   @override
   _ContactsPageState createState() => _ContactsPageState();
 }
-
 class _ContactsPageState extends State<ContactsPage> {
   ScrollController _scrollController;
   final ContactsPageData data = ContactsPageData.mock();
@@ -121,7 +121,7 @@ class _ContactsPageState extends State<ContactsPage> {
       onPressed: (){ print('添加公众号');},
     ),
   ];
-  final Map _letterPosMap = {INDEX_BAR_WORDS[0]: 0.0};
+  final Map _letterPosMap = {INDEX_BAR_WORDS[0]: 0.0};//字母与位置
   @override
   void initState() {
     // TODO: implement initState
@@ -149,6 +149,7 @@ class _ContactsPageState extends State<ContactsPage> {
     _scrollController.dispose();
     super.dispose();
   }
+  //通过手指点击得出是点了哪个字母
   String _getLetter(BuildContext context, double tileHeight, Offset globalPos) {
     RenderBox _box = context.findRenderObject();
     var local = _box.globalToLocal(globalPos);
