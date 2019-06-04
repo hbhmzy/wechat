@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import '../home/conversation_page.dart';
 import '../home/contacts_page.dart';
+import '../home/discover_page.dart';
+import '../home/mine_page.dart';
 import 'package:flutter_apptest/constants.dart' show Constants,AppColors;
 
 enum Actionitems{
@@ -56,8 +58,8 @@ class _HomeScreenState extends State<HomeScreen> {
     _pages=[
       Container(child: ConversationPage(),),
       Container(child: ContactsPage(),),
-      Container(color: Colors.amber,),
-      Container(color: Colors.red,),
+      Container(child: DiscoverPage(),),
+      Container(child: Minepage(),),
     ];
   }
 

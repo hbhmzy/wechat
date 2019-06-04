@@ -6,6 +6,7 @@ class AppColors {
   static const TabIconActive = 0xff46c11b;
   static const AppBarPopupMenuColor  = 0xffffffff;
   static const ConversationTitleColor  = 0xff353535;
+  static const BackgroundColor = 0xffededed;
 
 //  static const CardBgColor = 0xffffffff;
   static const TitleColor = 0xff181818;
@@ -21,13 +22,13 @@ class AppColors {
   static const ContactGroupTitleBg = 0xffebebeb;
   static const ContactGroupTitleText = 0xff888888;
   static const IndexLetterBoxBg = Colors.black45;
-//  static const HeaderCardBg = Colors.white;
-//  static const HeaderCardTitleText = 0xff353535;
-//  static const HeaderCardDesText = 0xff7f7f7f;
-//  static const ButtonDesText = 0xff8c8c8c;
-//  static const ButtonArrowColor = 0xffadadad;
-//  static const NewTagBg = 0xfffa5251;
-//  static const ChatBoxBg = 0xfff7f7f7;
+  static const HeaderCardBg = Colors.white;
+  static const HeaderCardTitleText = 0xff353535;
+  static const HeaderCardDesText = 0xff7f7f7f;
+  static const ButtonDesText = 0xff8c8c8c;
+  static const ButtonArrowColor = 0xffadadad;
+  static const NewTagBg = 0xfffa5251;
+  static const ChatBoxBg = 0xfff7f7f7;
 
 }
 
@@ -60,27 +61,27 @@ class AppStyles {
   static const IndexLetterBoxTextStyle =
   TextStyle(fontSize: 64.0, color: Colors.white);
 
-//  static const HeaderCardTitleTextStyle = TextStyle(
-//      fontSize: 20.0,
-//      color: Color(AppColors.HeaderCardTitleText),
-//      fontWeight: FontWeight.bold);
-//
-//  static const HeaderCardDesTextStyle = TextStyle(
-//      fontSize: 14.0,
-//      color: Color(AppColors.HeaderCardDesText),
-//      fontWeight: FontWeight.normal);
-//
-//  static const ButtonDesTextStyle = TextStyle(
-//      fontSize: 12.0,
-//      color: Color(AppColors.ButtonDesText),
-//      fontWeight: FontWeight.bold);
-//
-//  static const NewTagTextStyle = TextStyle(
-//      fontSize: Constants.DesTextSize,
-//      color: Colors.white,
-//      fontWeight: FontWeight.bold);
-//}
+  static const HeaderCardTitleTextStyle = TextStyle(
+      fontSize: 20.0,
+      color: Color(AppColors.HeaderCardTitleText),
+      fontWeight: FontWeight.bold);
+
+  static const HeaderCardDesTextStyle = TextStyle(
+      fontSize: 14.0,
+      color: Color(AppColors.HeaderCardDesText),
+      fontWeight: FontWeight.normal);
+
+  static const ButtonDesTextStyle = TextStyle(
+      fontSize: 12.0,
+      color: Color(AppColors.ButtonDesText),
+      fontWeight: FontWeight.bold);
+
+  static const NewTagTextStyle = TextStyle(
+      fontSize: Constants.DesTextSize,
+      color: Colors.white,
+      fontWeight: FontWeight.bold);
 }
+
 class Routes {
   static const Home = "/";
   static const Conversation = "/conversation";
