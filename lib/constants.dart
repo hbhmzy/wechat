@@ -20,7 +20,7 @@ class AppColors {
   static const DeviceInfoItemIcon = 0xff606062;
   static const ContactGroupTitleBg = 0xffebebeb;
   static const ContactGroupTitleText = 0xff888888;
-//  static const IndexLetterBoxBg = Colors.black45;
+  static const IndexLetterBoxBg = Colors.black45;
 //  static const HeaderCardBg = Colors.white;
 //  static const HeaderCardTitleText = 0xff353535;
 //  static const HeaderCardDesText = 0xff7f7f7f;
@@ -56,10 +56,10 @@ class AppStyles {
     fontSize: 14.0,
     color: Color(AppColors.ContactGroupTitleText),
   );
-//
-//  static const IndexLetterBoxTextStyle =
-//  TextStyle(fontSize: 64.0, color: Colors.white);
-//
+
+  static const IndexLetterBoxTextStyle =
+  TextStyle(fontSize: 64.0, color: Colors.white);
+
 //  static const HeaderCardTitleTextStyle = TextStyle(
 //      fontSize: 20.0,
 //      color: Color(AppColors.HeaderCardTitleText),
